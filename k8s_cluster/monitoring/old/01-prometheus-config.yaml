@@ -34,3 +34,7 @@ data:
 
         static_configs:
         - targets: ['localhost:9090']
+
+      - job_name: 'k8s'
+        static_configs:
+          - targets: ['prom-node-exp-prometheus-node-exporter:9100']

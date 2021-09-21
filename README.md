@@ -8,5 +8,8 @@ Docker (docker-compose):
 
 K8s cluster:
 * Monitoring
-  1. Prometheus (NodePort)
-  2. Grafana (NodePort)
+  1. Prometheus
+  2. Grafana
+* Logging
+  1. Elastic
+  2. Kibana
